@@ -7,7 +7,7 @@ import java.util.Random;
 
 /**
  *  
- * @author Michele
+ * @author Michele Dalle Rive
  *
  */
 public class ListSorting {
@@ -37,7 +37,7 @@ public class ListSorting {
 		for(int i=0;i<list2.size();i++){
 			list.add(list2.get(i));
 		}
-		bubbleSort(list);
+		bubbleSort(list); // :P
 		return list;
 	}
 	
