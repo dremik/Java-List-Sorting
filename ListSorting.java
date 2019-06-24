@@ -29,18 +29,6 @@ public class ListSorting {
 		}while(swapped);
 	}
 	
-	public static <T> List<T> mergeSort(List<T> list1, List<T> list2){
-		List<T> list = new ArrayList<>();
-		for(int i=0;i<list1.size();i++){
-			list.add(list1.get(i));
-		}
-		for(int i=0;i<list2.size();i++){
-			list.add(list2.get(i));
-		}
-		bubbleSort(list); // :P
-		return list;
-	}
-	
 	public static <T> void insertionSort(List<T> list){
 		List<T> finalList = new ArrayList<>();
 		finalList.add(list.get(0));
